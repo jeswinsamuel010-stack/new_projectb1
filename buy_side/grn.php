@@ -329,7 +329,7 @@ $grnRecords = fetchAll("SELECT * FROM buy_grn ORDER BY created_at DESC LIMIT 50"
             <?php endif; ?>
         </div>
     </div>
-</div>
+</div>    
 
 <style>
 /* Minimal styles - using Bootstrap from header.php */
