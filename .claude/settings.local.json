@@ -10,7 +10,8 @@
       "Bash(composer require:*)",
       "Bash(curl -s -X POST \"http://localhost/new_projectb/api/dashboard.php\" -d \"action=active_projects\")",
       "Bash(C:/xampp/php/php.exe:*)",
-      "Bash(C:/xampp/mysql/bin/mysql.exe:*)"
+      "Bash(C:/xampp/mysql/bin/mysql.exe:*)",
+      "mcp__ide__getDiagnostics"
     ]
   }
 }
