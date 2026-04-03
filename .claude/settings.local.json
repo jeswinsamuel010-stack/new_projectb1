@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/xampp/mysql/bin/mysql -u root -e \"USE construction_erp; SHOW TABLES;\" 2>&1)",
+      "Bash(composer install:*)",
+      "Bash(php:*)",
+      "Bash(dir \"E:\\\\xampp\\\\htdocs\\\\new_projectb\\\\vendor\\\\phpmailer\\\\phpmailer\\\\src\")",
+      "Bash(mysql -u root -e \"SELECT NOW\\(\\), @@time_zone, @@system_time_zone;\" construction_erp)",
+      "Bash(mysql:*)",
+      "Bash(composer require:*)",
+      "Bash(curl -s -X POST \"http://localhost/new_projectb/api/dashboard.php\" -d \"action=active_projects\")",
+      "Bash(C:/xampp/php/php.exe:*)",
+      "Bash(C:/xampp/mysql/bin/mysql.exe:*)"
+    ]
+  }
+}
